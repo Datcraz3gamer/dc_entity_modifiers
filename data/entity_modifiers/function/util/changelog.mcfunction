@@ -1,1 +1,2 @@
-tellraw @a [{"text": "[Entity Modifiers] Click ","color": "green"},{"text":"HERE","underlined":true,"color":"blue","clickEvent": {"action": "open_url","value":"https://github.com/Datcraz3gamer/dc_entity_modifiers/blob/main/CHANGELOG.md"}},{"text":" to view the GitHub changelog.","color": "green"}]
+tellraw @s [{"text": "[Entity Modifiers] Click ","color": "green"},{"text":"HERE","underlined":true,"color":"blue","clickEvent": {"action": "open_url","value":"https://github.com/Datcraz3gamer/dc_entity_modifiers/blob/main/CHANGELOG.md"}},{"text":" to view the GitHub changelog.","color": "green"}]
+scoreboard players reset @s em_Changelog
