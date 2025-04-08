@@ -1,3 +1,4 @@
+## OLD CODE
 execute if score invulnerable em_enabled_modifiers matches 1.. as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:netherite_block",Count:1b,tag:{display:{Name:'{"text":"Invulnerable"}'}}}}] at @s run function entity_modifiers:mods/inv/invulnerable_tag
 execute if score silence em_enabled_modifiers matches 1.. as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block",Count:1b,tag:{display:{Name:'{"text":"Silent"}'}}}}] at @s run function entity_modifiers:mods/sil/silence_tag
 execute if score noAI em_enabled_modifiers matches 1.. as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:1b,tag:{display:{Name:'{"text":"NoAI"}'}}}}] at @s run function entity_modifiers:mods/noai/noai_tag
