@@ -28,7 +28,7 @@
     + Toggleable in settings menu
 + Added <span style="color:purple">**Modifier Sponge**</span> item to clear all modifiers from entities
 ##    BUG FIXES
-+ - No Bugs have been reported -
++ No Bugs have been reported
 ##    BETA FEATURES
 + Added Beta Settings
     + Disabled by default
