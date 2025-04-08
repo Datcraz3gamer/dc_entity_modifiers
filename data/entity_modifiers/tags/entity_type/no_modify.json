@@ -1,0 +1,30 @@
+{
+    "replace": false,
+    "values": [
+        "player",
+        "#impact_projectiles",
+        "block_display",
+        "boat",
+        "chest_boat",
+        "end_crystal",
+        "ender_pearl",
+        "evoker_fangs",
+        "eye_of_ender",
+        "experience_orb",
+        "falling_block",
+        "fishing_bobber",
+        "interaction",
+        "item",
+        "item_display",
+        "item_frame",
+        "lightning_bolt",
+        "leash_knot",
+        "llama_spit",
+        "marker",
+        "painting",
+        "tnt",
+        "text_display",
+        "shulker_bullet",
+        "#bossbar_entity"
+    ]
+  }

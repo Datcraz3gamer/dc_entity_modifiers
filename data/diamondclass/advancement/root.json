@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Diamond Class"
+        },
+        "description": {"text": "Made By Datcraz3gamer","color": "yellow"},
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "properties": [
+                        {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRkN2MxNjhmOTkwZjAzMzQ2ZDBmY2M0ZjljNGY1MTkxNGQyMDdiZjgyYjY2NDAxZWExMjZlNDQzOGU0ZDc3YSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/black_concrete.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

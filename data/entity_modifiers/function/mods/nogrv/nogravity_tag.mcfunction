@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:1b,tag:{display:{Name:'{"text":"NoGravity"}'}}}}] if entity @e[tag=nogrv,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/nogrv/off
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:shulker_shell",Count:1b,tag:{display:{Name:'{"text":"NoGravity"}'}}}}] if entity @e[tag=!nogrv,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/nogrv/on
+execute as @e[tag=em_tag] run tag @s remove em_tag

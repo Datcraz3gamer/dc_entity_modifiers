@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block",Count:1b,tag:{display:{Name:'{"text":"Silent"}'}}}}] if entity @e[tag=sil,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/sil/off
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:note_block",Count:1b,tag:{display:{Name:'{"text":"Silent"}'}}}}] if entity @e[tag=!sil,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/sil/on
+execute as @e[tag=em_tag] run tag @s remove em_tag

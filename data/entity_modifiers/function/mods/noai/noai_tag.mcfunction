@@ -1,0 +1,3 @@
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:1b,tag:{display:{Name:'{"text":"NoAI"}'}}}}] if entity @e[tag=noai,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/noai/off
+execute as @e[type=item,nbt={OnGround:1b,Item:{id:"minecraft:gold_block",Count:1b,tag:{display:{Name:'{"text":"NoAI"}'}}}}] if entity @e[tag=!noai,tag=!em_tag,type=!#nomodify,limit=1,sort=nearest,distance=..1] run function entity_modifiers:mods/noai/on
+execute as @e[tag=em_tag] run tag @s remove em_tag

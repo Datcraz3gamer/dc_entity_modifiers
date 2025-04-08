@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "ROY",
+      "P#L",
+      "BCG"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:orange_dye"
+      },
+      "#": {
+        "item": "minecraft:writable_book"
+      },
+      "R": {
+        "item": "minecraft:red_dye"
+      },
+      "Y": {
+        "item": "minecraft:yellow_dye"
+      },
+      "L": {
+        "item": "minecraft:lime_dye"
+      },
+      "G": {
+        "item": "minecraft:green_dye"
+      },
+      "C": {
+        "item": "minecraft:cyan_dye"
+      },
+      "B": {
+        "item": "blue_dye"
+      },
+      "P": {
+        "item": "purple_dye"
+      }
+    },
+    "result": {
+      "id": "minecraft:writable_book",
+      "components": {
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:item_name": "\"Format Book\"",
+        "minecraft:rarity": "uncommon",
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:written_book_content": {
+          "title": {
+            "raw": "Format Book"
+          },
+          "author": "Entity Modifiers",
+          "generation": 0
+        },
+        "minecraft:max_stack_size": 1
+      }
+    },
+    "show_notification": true
+  }

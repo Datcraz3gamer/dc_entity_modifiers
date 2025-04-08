@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " #O",
+    " I#",
+    "i  "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:ender_eye"
+    },
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:blaze_rod"
+    },
+    "i": {
+      "item": "gold_nugget"
+    }
+  },
+  "result": {
+    "id": "golden_pickaxe",
+    "components": {
+      "minecraft:custom_model_data": 0,
+      "minecraft:hide_additional_tooltip": {},
+      "minecraft:item_name": "\"Manipulator\"",
+      "minecraft:rarity": "uncommon",
+      "minecraft:unbreakable": {
+        "show_in_tooltip": false
+      },
+      "!minecraft:tool": {},
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true,
+        "eat_seconds": 9999999
+      },
+      "!minecraft:attribute_modifiers": {},
+      "minecraft:lore": [
+        "{\"text\": \"Placeholder Item Model\",\"color\": \"dark_gray\",\"italic\": true}"
+      ]
+    }
+  },
+  "show_notification": true
+}

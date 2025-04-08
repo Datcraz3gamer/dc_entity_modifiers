@@ -1,0 +1,3 @@
+tellraw @s[tag=em_Operator] [{"text": "[Entity Modifiers] You are already a ","color":"green"},{"text": "Pack Operator","color": "gold"},{"text":". Click or Run ","color":"green"},{"text": "/trigger em_Configure","clickEvent": {"action": "suggest_command","value": "/trigger em_Configure"},"color":"gold"},{"text": " to configure the datapack.","color":"green"}]
+tellraw @s[tag=!em_Operator] [{"text": "[Entity Modifiers] You are now a ","color":"green"},{"text": "Pack Operator","color": "gold"},{"text":". Click or Run ","color":"green"},{"text": "/trigger em_Configure","clickEvent": {"action": "suggest_command","value": "/trigger em_Configure"},"color":"gold"}]
+tag @s[tag=!em_Operator] add em_Operator
