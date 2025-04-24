@@ -1,4 +1,8 @@
-tellraw @s ["\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",{"text":"[Entity Modifiers] Here is a ","color":"green"},{"text":"Basic Guide ","color":"gold"},{"text":"to help you:\n","color":"green"},{"text":"Enabled NBT's are ","color":"aqua"},{"text":"Green","color":"green"},{"text":", Disabled NBT's are ","color":"aqua"},{"text":"Red","color":"red"}]
+tellraw @s [\
+    "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",\
+    {"text":"[Entity Modifiers] Here is a ","color":"green"},{"text":"Basic Guide ","color":"gold"},{"text":"to help you:\n","color":"green"},\
+    {"text":"Enabled NBT's are ","color":"aqua"},{"text":"Green","color":"green"},{"text":", Disabled NBT's are ","color":"aqua"},{"text":"Red","color":"red"}\
+]
 execute if score invulnerable em_modify matches 1.. run tellraw @s ["",{"text":"[","color":"aqua"},{"text":"Invulnerable","color":"green"},{"text":"] Requires one ","color":"aqua"},{"text":"Netherite Block ","color":"gold"},{"text":"renamed ","color":"aqua"},{"text":"Invulnerable","color":"gold"}]
 execute if score invulnerable em_modify matches ..0 run tellraw @s ["",{"text":"[","color":"aqua"},{"text":"Invulnerable","color":"red"},{"text":"] Requires one ","color":"aqua"},{"text":"Netherite Block ","color":"gold"},{"text":"renamed ","color":"aqua"},{"text":"Invulnerable","color":"gold"}]
 execute if score silence em_modify matches 1.. run tellraw @s ["",{"text":"[","color":"aqua"},{"text":"Silent","color":"green"},{"text":"] Requires one ","color":"aqua"},{"text":"Note Block ","color":"gold"},{"text":"renamed ","color":"aqua"},{"text":"Silent","color":"gold"}]
