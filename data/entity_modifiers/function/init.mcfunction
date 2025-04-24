@@ -1,17 +1,38 @@
 #   Create Scoreboards
 scoreboard objectives add em_Guide trigger "Guide"
 scoreboard objectives add em_Configure trigger "Configure"
-scoreboard objectives add em_enabled_modifiers dummy
+scoreboard objectives add em_featureToggle dummy
 scoreboard objectives add em_success dummy
 scoreboard objectives add em_Changelog trigger "Changelog"
 
+#   Config Book Storage
+execute unless data storage diamondclass:config entity_modifiers run data modify storage diamondclass:config entity_modifiers set value {\
+    "toggle_invulnerability":"NULL",\
+    "toggle_noai":"NULL",\
+    "toggle_nogravity":"NULL",\
+    "toggle_silent":"NULL",\
+    "toggle_glowing":"NULL",\
+    "toggle_formatnames":"NULL",\
+    "toggle_manipulatorplus":"NULL",\
+    "toggle_manipulator_pos":"NULL",\
+    "toggle_manipulator_scale":"NULL",\
+    "toggle_betafeatures":"NULL",\
+    "toggle_entityowner":"NULL",\
+}
+
 #   Fake Players
-scoreboard players set silence em_enabled_modifiers 1
-scoreboard players set noAI em_enabled_modifiers 1
-scoreboard players set formatNames em_enabled_modifiers 1
-scoreboard players set noGravity em_enabled_modifiers 1
-scoreboard players set invulnerable em_enabled_modifiers 1
-scoreboard players set glowing em_enabled_modifiers 1
+scoreboard players set silence em_featureToggle 1
+scoreboard players set noAI em_featureToggle 1
+scoreboard players set formatNames em_featureToggle 1
+scoreboard players set noGravity em_featureToggle 1
+scoreboard players set invulnerable em_featureToggle 1
+scoreboard players set glowing em_featureToggle 1
+scoreboard players set manipulatorPlus em_featureToggle 1
+scoreboard players set manipulatorPlus.pos em_featureToggle 1
+scoreboard players set manipulatorPlus.scale em_featureToggle 1
+scoreboard players set betaFeatures em_featureToggle 1
+scoreboard players set betaFeatures.entityOwners em_featureToggle 1
+scoreboard players set bookVersion em_featureToggle 0
 
 ##  GLOW COLOR TEAMS
 #   Teams
