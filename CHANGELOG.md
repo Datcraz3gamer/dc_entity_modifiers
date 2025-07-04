@@ -1,4 +1,4 @@
-# 1/31/25     RELEASE VERSION 2.0.0  MC_1.21
+# 1/31/25     OPEN BETA VERSION 2.0.0  MC_1.21
 ##    CHANGES
 + Complete rewrite of the pack
 + Added [`README.md`](README.md)
