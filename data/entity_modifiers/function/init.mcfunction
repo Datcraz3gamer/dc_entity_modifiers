@@ -6,18 +6,19 @@ scoreboard objectives add em_success dummy
 scoreboard objectives add em_Changelog trigger "Changelog"
 
 #   Config Book Storage
-execute unless data storage diamondclass:config entity_modifiers run data modify storage diamondclass:config entity_modifiers set value {\
-    "toggle_invulnerability":"NULL",\
-    "toggle_noai":"NULL",\
-    "toggle_nogravity":"NULL",\
-    "toggle_silent":"NULL",\
-    "toggle_glowing":"NULL",\
-    "toggle_formatnames":"NULL",\
-    "toggle_manipulatorplus":"NULL",\
-    "toggle_manipulator_pos":"NULL",\
-    "toggle_manipulator_scale":"NULL",\
-    "toggle_betafeatures":"NULL",\
-    "toggle_entityowner":"NULL",\
+execute unless data storage dc_config entity_modifiers run data modify storage dc_config entity_modifiers set value {\
+    "toggle_invulnerability":"\"text\":\"NULL\\\\n\"",\
+    "toggle_noai":"\"text\":\"NULL\\\\n\"",\
+    "toggle_nogravity":"\"text\":\"NULL\\\\n\"",\
+    "toggle_silent":"\"text\":\"NULL\\\\n\"",\
+    "toggle_glowing":"\"text\":\"NULL\\\\n\"",\
+    "toggle_formatnames":"\"text\":\"NULL\\\\n\"",\
+    "toggle_manipulatorplus":"\"text\":\"NULL\\\\n\"",\
+    "toggle_manipulator_pos":"\"text\":\"NULL\\\\n\"",\
+    "toggle_manipulator_scale":"\"text\":\"NULL\\\\n\"",\
+    "toggle_betafeatures":"\"text\":\"NULL\\\\n\"",\
+    "toggle_entityowner":"\"text\":\"NULL\\\\n\"",\
+    "book_version":0\
 }
 
 #   Fake Players
